@@ -1,6 +1,9 @@
 *~
+<<<<<<< HEAD
 *.o
 .deps/
 .dirstamp
 board3d/.deps/
 lib/.deps/
+=======
+>>>>>>> eddadcd4d5a593bfe7aad356a6795f3a044002b2
