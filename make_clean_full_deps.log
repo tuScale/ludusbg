@@ -1,0 +1,91 @@
+Making clean in win32
+make[1]: Entering directory `/home/vic/Projects/external/gnubg/win32'
+test -z "" || rm -f 
+rm -rf .libs _libs
+rm -f *.lo
+make[1]: Leaving directory `/home/vic/Projects/external/gnubg/win32'
+Making clean in lib
+make[1]: Entering directory `/home/vic/Projects/external/gnubg/lib'
+rm -rf .libs _libs
+rm -rf ../.libs ../_libs
+test -z "libevent.la libsimd.la" || rm -f libevent.la libsimd.la
+rm -f ./so_locations
+rm -f *.o
+rm -f ../*.o
+rm -f ../*.lo
+rm -f *.lo
+make[1]: Leaving directory `/home/vic/Projects/external/gnubg/lib'
+Making clean in doc
+make[1]: Entering directory `/home/vic/Projects/external/gnubg/doc'
+test -z "gnubg.texi gnubg.info gnubg.6 gnubg.pdf allabout.pdf" || rm -f gnubg.texi gnubg.info gnubg.6 gnubg.pdf allabout.pdf
+rm -rf .libs _libs
+test -z "gnubg.html allabout.html gnubg.6 gnubg.info gnubg.texi manpage.links manpage.refs" || rm -f gnubg.html allabout.html gnubg.6 gnubg.info gnubg.texi manpage.links manpage.refs
+rm -f *.lo
+make[1]: Leaving directory `/home/vic/Projects/external/gnubg/doc'
+Making clean in met
+make[1]: Entering directory `/home/vic/Projects/external/gnubg/met'
+rm -rf .libs _libs
+rm -f *.lo
+make[1]: Leaving directory `/home/vic/Projects/external/gnubg/met'
+Making clean in po
+make[1]: Entering directory `/home/vic/Projects/external/gnubg/po'
+rm -f core core.* *.pox gnubg.po *.old.po cat-id-tbl.tmp
+rm -fr *.o
+make[1]: Leaving directory `/home/vic/Projects/external/gnubg/po'
+Making clean in m4
+make[1]: Entering directory `/home/vic/Projects/external/gnubg/m4'
+rm -rf .libs _libs
+rm -f *.lo
+make[1]: Leaving directory `/home/vic/Projects/external/gnubg/m4'
+Making clean in sounds
+make[1]: Entering directory `/home/vic/Projects/external/gnubg/sounds'
+rm -rf .libs _libs
+rm -f *.lo
+make[1]: Leaving directory `/home/vic/Projects/external/gnubg/sounds'
+Making clean in board3d
+make[1]: Entering directory `/home/vic/Projects/external/gnubg/board3d'
+rm -rf .libs _libs
+test -z "libboard3d.la" || rm -f libboard3d.la
+rm -f ./so_locations
+rm -f *.o
+rm -f *.lo
+make[1]: Leaving directory `/home/vic/Projects/external/gnubg/board3d'
+Making clean in textures
+make[1]: Entering directory `/home/vic/Projects/external/gnubg/textures'
+rm -rf .libs _libs
+rm -f *.lo
+make[1]: Leaving directory `/home/vic/Projects/external/gnubg/textures'
+Making clean in scripts
+make[1]: Entering directory `/home/vic/Projects/external/gnubg/scripts'
+rm -rf .libs _libs
+rm -f *.lo
+make[1]: Leaving directory `/home/vic/Projects/external/gnubg/scripts'
+Making clean in flags
+make[1]: Entering directory `/home/vic/Projects/external/gnubg/flags'
+rm -rf .libs _libs
+rm -f *.lo
+make[1]: Leaving directory `/home/vic/Projects/external/gnubg/flags'
+Making clean in fonts
+make[1]: Entering directory `/home/vic/Projects/external/gnubg/fonts'
+rm -rf .libs _libs
+rm -f *.lo
+make[1]: Leaving directory `/home/vic/Projects/external/gnubg/fonts'
+Making clean in non-src
+make[1]: Entering directory `/home/vic/Projects/external/gnubg/non-src'
+rm -rf .libs _libs
+rm -f *.lo
+make[1]: Leaving directory `/home/vic/Projects/external/gnubg/non-src'
+Making clean in pixmaps
+make[1]: Entering directory `/home/vic/Projects/external/gnubg/pixmaps'
+test -z "stock-icons.list gnubg-stock-pixbufs.h" || rm -f stock-icons.list gnubg-stock-pixbufs.h
+rm -rf .libs _libs
+rm -f *.lo
+make[1]: Leaving directory `/home/vic/Projects/external/gnubg/pixmaps'
+Making clean in .
+make[1]: Entering directory `/home/vic/Projects/external/gnubg'
+ rm -f gnubg makebearoff makehyper bearoffdump makeweights
+rm -rf .libs _libs
+rm -f *.o
+test -z "sgf_y.c sgf_y.h sgf_l.c external_l.c external_l.h external_y.c external_y.h copying.c credits.c credits.h AUTHORS" || rm -f sgf_y.c sgf_y.h sgf_l.c external_l.c external_l.h external_y.c external_y.h copying.c credits.c credits.h AUTHORS
+rm -f *.lo
+make[1]: Leaving directory `/home/vic/Projects/external/gnubg'
