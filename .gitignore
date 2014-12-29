@@ -1,1 +1,6 @@
 *~
+*.o
+.deps/
+.dirstamp
+board3d/.deps/
+lib/.deps/
